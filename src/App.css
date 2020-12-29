@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+  background: #be616b;
+  margin: 0;
+}
+form {
+  width: 340px;
+  height: 480px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #369e3f;
+  border-bottom: 3px solid #369e3f;
+}
+.result{
+  text-align: center;
+  color: #fff;
+  background: #369e3f;
+  padding: 8px 12px;
+  font-size: 15px;
+  border-radius: 16px;
+  transition: all .5s;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #d2bec1;
+}
+input:focus {
+  border-bottom: 2px solid #369e3f;
+}
+label:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #369e3f;
+}
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #369e3f;
+  background: 0;
+  color: #369e3f;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  background: #369e3f;
+  color: #fff;
+}
+button:active, button:focus{
+  outline: none;
+}
+button:active{
+  background: #456e23;
+}
+.info {
+  content: "Hi";
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: #369e3f;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
+}
+span {
+  margin: 0 5px 0 15px;
+}
